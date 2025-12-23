@@ -14,6 +14,9 @@ importers:
       '@medusajs/admin-shared':
         specifier: ^2.12.3
         version: 2.12.3
+      '@medusajs/caching':
+        specifier: ^2.12.3
+        version: 2.12.3(@medusajs/framework@2.12.3(@medusajs/cli@2.12.3(@types/node@20.19.27))(@types/node@20.19.27)(ioredis@5.8.2)(vite@5.4.21(@types/node@20.19.27)))(awilix@8.0.1)
       '@medusajs/cli':
         specifier: 2.12.3
         version: 2.12.3(@types/node@20.19.27)
