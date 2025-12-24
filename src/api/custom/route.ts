@@ -1,10 +1,10 @@
 import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { z } from "zod"
+// import { z } from "zod"
 
-export const PostStoreCustomSchema = z.object({
-  a: z.number(),
-  b: z.number(),
-})
+// export const PostStoreCustomSchema = z.object({
+//   a: z.number(),
+//   b: z.number(),
+// })
 
 export async function GET(
   req: MedusaRequest,
